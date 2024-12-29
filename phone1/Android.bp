@@ -10558,7 +10558,6 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
 	name: "cnss-daemon_phone1",
 	stem: "cnss-daemon",
-	overrides: ["cnss-daemon"],
 	owner: "nothing",
 	target: {
 		android_arm64: {
@@ -10679,7 +10678,6 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
 	name: "hvdcp_opti_phone1",
 	stem: "hvdcp_opti",
-	overrides: ["hvdcp_opti"],
 	owner: "nothing",
 	target: {
 		android_arm64: {
