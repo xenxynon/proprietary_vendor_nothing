@@ -42,7 +42,7 @@
         <library name="audiosphere" path="libasphere.so"/>
         <library name="shoebox" path="libshoebox.so"/>
         <!-- add for dirac support -->
-        <library name="dirac_gef" path="libdiraceffect-afm.so"/>
+        <library name="dirac" path="libdiraceffect_NT.so"/>
         <!-- add for dirac support -->
     </libraries>
     <effects>
@@ -93,9 +93,7 @@
         <effect name="audiosphere" library="audiosphere" uuid="184e62ab-2d19-4364-9d1b-c0a40733866c"/>
         <effect name="shoebox" library="shoebox" uuid="1eab784c-1a36-4b2a-b7fc-e34c44cab89e"/>
         <!-- add for dirac support -->
-        <effect name="dirac_gef" library="dirac_gef" uuid="3799D6D1-22C5-43C3-B3EC-D664CF8D2F0D"/>
-        <effect name="dirac_afm" library="dirac_gef" uuid="743539F8-1076-451F-8395-84ACFAB0FAC7"/>
-        <effect name="dirac_controller" library="dirac_gef" uuid="128B9BA2-D0C9-47C6-AFF3-9F761CD0E228"/>
+        <effect name="dirac" library="dirac" uuid="ae737c63-f2c0-5457-909e-1e940c91b67b"/>
         <!-- add for dirac support -->
     </effects>
     <postprocess>

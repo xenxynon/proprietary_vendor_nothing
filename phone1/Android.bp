@@ -4433,7 +4433,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so"],
-			shared_libs: ["libbase", "libcutils", "libhidlbase", "liblog", "libutils", "vendor.qti.esepowermanager@1.0", "vendor.qti.esepowermanager@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "libcutils", "libhidlbase", "liblog", "libutils", "libesepmconfig", "vendor.qti.esepowermanager@1.0", "vendor.qti.esepowermanager@1.1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10861,7 +10861,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service"],
-			shared_libs: ["libcutils", "libbase", "libutils", "libhardware_legacy", "libhardware", "libQSEEComAPI", "liblog", "libhidlbase", "android.hardware.nfc@1.2", "vendor.qti.esepowermanager@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libbase", "libutils", "libhardware_legacy", "libhardware", "liblog", "libhidlbase", "libQSEEComAPI", "libesepmconfig", "vendor.qti.esepowermanager@1.1", "vendor.qti.esepowermanager@1.1-impl", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
